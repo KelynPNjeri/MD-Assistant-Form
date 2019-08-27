@@ -1,0 +1,37 @@
+.info-collection {
+    width: 40vw;
+    padding: 20px 40px;
+    margin: 0 auto;
+    border: solid 1px #ccc;
+    border-radius: 5px;
+}
+.info-collection > input, .info-collection > textarea {
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    width: 100%;
+    border: solid 1px #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+.info-collection > textarea {
+    overflow-y: scroll;
+    height: 150px;
+}
+
+::placeholder {
+    color: #808080;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.info-collection > .btn_submit {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #fff;
+    background: #000;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 20vw;
+    border-radius: 10px;
+}
