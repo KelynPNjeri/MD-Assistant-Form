@@ -27,8 +27,6 @@ const addDiseaseInfo = () => {
     }).then( 
         resp => resp.json(). then( data => { 
             console.log(data);
+            document.getElementById('diseases-info').reset();
     }))
 }
-// document.getElementById('btn').addEventListener('click', {
-//     addDiseaseInfo()
-// })
