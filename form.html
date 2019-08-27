@@ -8,13 +8,14 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form class="info-collection">
+    <form class="info-collection" id="diseases-info">
         <h3>MD Assistant Data Collection.</h3>
         <input type="text" name="disease-name" id="disease-name" placeholder="Disease Name">
         <textarea name="disease-signs" id="disease-signs" placeholder="Disease Signs"></textarea>
         <textarea name="disease-symptoms" id="disease-symptoms" placeholder="Disease Symptoms"></textarea>
         <textarea name="confirmatory-tests" id="confirmatory-tests" placeholder="Confirmatory Tests"></textarea>
-        <a href="#" class="btn_submit">Add Disease</a>
+        <a href="#" class="btn_submit" id="btn" onclick="addDiseaseInfo()" >Add Disease</a>
     </form>
+    <script src="app.js"></script>
 </body>
 </html>
